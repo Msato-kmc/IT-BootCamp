@@ -1,15 +1,18 @@
-*{
-    position: relative;
-    left: 50px;
+@charset "UTF-8";
+.body{
+    max-width: 100%;
+}
+.header{
+    max-width: 100%;
 }
 
 .textbox{                     /* 入力ボックス */
     font-size: 25px;
-    border: 2px solid #F8B500;    
+    border: 2px solid blue;    
 }
 
 select{                        /* 県名、人数の選択 */
-    border: 2px solid #F8B500;
+    border: 2px solid blue;
     font-size: 25px;
     width: 150px;
  
@@ -17,11 +20,38 @@ select{                        /* 県名、人数の選択 */
 
 p{
     font-size: 25px;
+    font-family: Meiryo, sans-serif;
+}
+h1 {
+    font-family: Meiryo, sans-serif;
 }
 
 br{                           /* 改行の間隔 */
     height: 10px;
 }
+
+button{
+    border: 2px solid blue;
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8b500;
+    max-width: 100%;
+    height: 10%;
+  }
+  
 
 button{
     border: 2px solid #F8B500;
