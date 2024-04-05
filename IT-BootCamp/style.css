@@ -5,11 +5,11 @@
 
 .textbox{                     /* 入力ボックス */
     font-size: 25px;
-    border: 2px solid blue;    
+    border: 2px solid #F8B500;    
 }
 
 select{                        /* 県名、人数の選択 */
-    border: 2px solid blue;
+    border: 2px solid #F8B500;
     font-size: 25px;
     width: 150px;
  
@@ -24,6 +24,6 @@ br{                           /* 改行の間隔 */
 }
 
 button{
-    border: 2px solid blue;
+    border: 2px solid #F8B500;
 }
 
