@@ -1,24 +1,29 @@
-.textbox{
-    font-size: 25px;
-    border: 3px solid blue;    
+*{
+    position: relative;
+    left: 50px;
 }
 
-select{
-    border: 3px solid blue;
+.textbox{                     /* 入力ボックス */
+    font-size: 25px;
+    border: 2px solid blue;    
+}
+
+select{                        /* 県名、人数の選択 */
+    border: 2px solid blue;
     font-size: 25px;
     width: 150px;
  
 }
 
-
 p{
     font-size: 25px;
 }
 
-br{
+br{                           /* 改行の間隔 */
     height: 10px;
 }
 
 button{
-    border: 3px solid blue;
+    border: 2px solid blue;
 }
+
