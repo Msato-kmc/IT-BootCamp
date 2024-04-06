@@ -92,9 +92,10 @@ footer {
 }
 
 img {
-    width: 12%;
+    width: 40%;
     background-color: #faf8f1;
-    margin: 6%;
+    margin-right: 10%;
+    margin-left: 24%;
 }
 
 main {
