@@ -9,7 +9,20 @@
 }
 
 .header{
-    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    font-size: 40px;
+    background-color: #faf8f1; 
+    color: #f8b500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Hiragino Sans;
+    font-weight: 600;
+}
 }
 
 .textbox{
