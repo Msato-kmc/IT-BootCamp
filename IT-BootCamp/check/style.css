@@ -98,7 +98,8 @@ hr{
     margin-right: 15%;
 }
 
-button{background-color: #e6c260;
+button{
+    background-color: #e6c260;
     border: none;
     border-radius: 10%;
     width: 30%;
