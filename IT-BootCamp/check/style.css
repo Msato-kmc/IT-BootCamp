@@ -1,93 +1,73 @@
-<!DOCTYPE html>
-<html lang="jp">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./historystyle.css">
-    <title>Ainori</title>
-</head>
-<body>
-    <header>
-        ゆきあい
-    </header>
-    <div class="wrapper">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>相乗り履歴</h1>
-    <main>
-    <div id="history1" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div>
-    <hr>
-    <div id="history2" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div><hr>
-    <div id="history3" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div><hr>
-    <div id="history4" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div><hr>
-    <div id="history5" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div><hr>
-    <div id="history6" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div><hr>
-    <div id="history7" >
-        <img src="../icons/icon1.png" alt="" >
-        <br>
-        <p class="info" style="display: inline">2024-03-031</p>
-        <p class="info" style="display: inline">12:30</p>
-        <p class="info" style="display: inline">神山-徳島駅</p>
-        <div class="name">happy man</div>  <!--　名前の位置、大きさなどはcssの .name{} で動かしてください。-->
-    </div><hr>
-        
-        
-    </main>    
+@charset "UTF-8";
+.body{
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 13%;
+}
 
-    <footer>
-        <a href="./plan.html"><img src="homeicon.jpg"></a>
-        <a href="./check.html"><img src="bellicon.jpg"></a>
-        <a href="./login.html"><img src="settingicon.jpg"></a>
-    </footer>
-    </div>
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    background-color:#faf8f1;
+    font-family: Hiragino Sans;
+    font-size: 40px;
+    font-weight: 600;
+    color:#f8b500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Hiragino Sans;
+   
+}
 
 
-    
-</body>
-</html>
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #faf8f1;
+    color: #424242;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8b500;
+    max-width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+main {
+    font-size: 30px;
+    padding-bottom: 15%;
+    /*width: 50%;*/
+   /* margin: 0 auto;*/
+    font-family: Hiragino sans;
+   
+}
+img{
+    width: 12%;
+    background-color: #faf8f1;
+    margin: 6%;
+}
