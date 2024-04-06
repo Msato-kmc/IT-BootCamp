@@ -94,10 +94,13 @@ main {
 .info{
     position: relative;
     bottom: 45px;
+    display: inline-block;
+    margin-right: 5px;
+
 }
 
 .name{
     position: relative;
-    left: 45px;
+    left: 46px;
     bottom: 30px;
 }
