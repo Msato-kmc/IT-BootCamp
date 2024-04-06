@@ -34,7 +34,10 @@ h1{
 
 
 
-
+h2{
+    font-family: Hiragino Sans;
+    text-align: center;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -66,3 +69,67 @@ main {
     font-family: Hiragino sans;
    
 }
+label{
+    font-family: Hiragino Sans;
+    font-size: 25px;
+
+}
+/* おまじない */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    color: #0c0c0d; /* 黒 */
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* ここから本文 */
+  
+  /** ここは下とまとめても問題ないですが、基本的にはページ内でinputのデザインは揃えたほういいと思います */
+  input {
+    border: 1px solid #0c0c0d4d;
+    color: #737373; /* グレー */
+    display: inline-block;
+    margin: 0 4px;
+  }
+  /* 楕円部 */
+  input[type="checkbox"] {
+    -webkit-appearance: none;    /* 消してもOK */
+    appearance: none;            /* 元々あるチェックボックスを非表示にする */
+    background-color: #0c0c0d1a; /* 楕円の色=文字色alpha10% */
+    border-radius: 15px;          /* heightの半分 */
+    height: 24px; 
+    width: 48px;                 /* heightの2倍くらい */
+  }
+  input[type="checkbox"]:hover {
+    background-color: #0c0c0d33;
+    border-color: #0c0c0d7f;
+  }
+  input[type="checkbox"]:active {
+    background-color: #0c0c0d4d;
+  }
+  input[type="checkbox"]:focus {
+    box-shadow: 0 0 0 1px #f8b500 inset, 0 0 0 1px  #f8b500, 0 0 0 4px #0a84ff4d;
+  }
+  input[type="checkbox"]:checked {
+    background-color:  #f8b500; /* 青 */
+    border-color:  #f8b500;
+  }
+  
+  /* 中の● */
+  input[type="checkbox"]::before {
+    background-color: currentColor; /* ●の色=グレー */
+    border-radius: 9px;             /* heightの半分 */
+    content: "";                    /* おまじない */
+    display: inline-block;          /* おまじない */
+    height: 18px;                   /* 楕円部のheightより2px小さいくらい */
+    margin-left: 2px;               /* 楕円部と●のすき間 */
+    margin-top: 2px;                /* 楕円部と●のすき間 */
+    transition: margin-left .2s cubic-bezier(.07, .95, 0, 1); /* ヌルっと具合は調整 */
+    width: 18px;                    /* heightに合わせる */
+  }
+  input[type="checkbox"]:checked::before {
+    background-color: #ffffff; /* 白（楕円部の色と調整） */
+    margin-left: 17px;         /* ●を右へ移動 */
+  }
