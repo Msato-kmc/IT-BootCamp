@@ -49,6 +49,11 @@
         <p class="check_num_people_background">人数
         <div id="check_num_people"></div>
     </p>
+    <p>
+        <p class="check_money">予想金額</p>
+        <div id="check_money"></div>
+        <div id="money">200円</div>
+    </p>
     <br>
     <button type="submit" id="book"  >予約</button>
         <br>
@@ -65,9 +70,9 @@
     </main>    
 
     <footer>
-        <a href="../plan/plan.html"><img src="./homeicon.jpg"></a>
-        <a href="../check/check.html"><img src="./bellicon.jpg"></a>
-        <a href="../login/login.html"><img src="./settingicon.jpg"></a>
+        <img src="../homeicon.jpg">
+        <img src="../bellicon.jpg">
+        <img src="../settingicon.jpg">
     </footer>
     </div>
 
@@ -89,10 +94,6 @@
         check_to_pref.innerHTML = to_pref;
         check_to.innerHTML = to;
         check_num_people.innerHTML = num_people;
-
-        document.getElementById("book").onclick = function(){
-            window.location.href = "../select/select.html";
-        }
     </script>
 
 
