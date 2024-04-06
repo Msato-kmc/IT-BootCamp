@@ -93,11 +93,11 @@ main {
 
 .info{
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
 }
 
 .name{
     position: relative;
-    left: 10px;
-    bottom: 10px;
+    left: 45px;
+    bottom: 30px;
 }
