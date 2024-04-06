@@ -90,3 +90,14 @@ main {
     width: 50%;
     margin: 0 auto;
 }
+
+.info{
+    position: relative;
+    bottom: 35px;
+}
+
+.name{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
