@@ -1,4 +1,7 @@
 @charset "UTF-8";
+h1{
+    text-align: center;
+}
 .body{
     max-width: 100%;
     margin: 0;
@@ -7,7 +10,14 @@
     min-height: 100vh;
     padding-bottom: 13%;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #faf8f1;
+    color: #424242;
 
+}
 header{
     position: fixed;
     top: 0;
@@ -22,27 +32,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
-
-h1{
-    text-align: center;
-    font-family: Hiragino Sans;
-   
-}
-
-
-
-
-
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    background-color: #faf8f1;
-    color: #424242;
-}
-
 footer {
     position: fixed;
     left: 0;
@@ -55,19 +47,78 @@ footer {
     align-items: center;
     justify-content: center;
 }
+main{
+    font-family: Hiragino Sans;
 
 
-
-main {
-    font-size: 30px;
-    padding-bottom: 15%;
-    /*width: 50%;*/
-   /* margin: 0 auto;*/
-    font-family: Hiragino sans;
+#check_date{
+    font-size: 25px;
+    text-align: center;
    
 }
-img{
-    width: 12%;
-    background-color: #faf8f1;
-    margin: 6%;
+#check_time{
+    font-size: 25px;
+    text-align: center;
+
+}
+#check_from_pref{
+    font-size: 25px;
+    text-align: center;
+}
+#check_from{
+    font-size: 25px;
+    text-align: center;
+}
+#check_to_pref{
+    font-size: 25px;
+    text-align: center;
+}
+#check_to{
+    font-size: 25px;
+    text-align: center;
+}
+#check_num_people{
+    font-size: 25px;
+    text-align: center;
+}
+#check_money{
+    font-size: 25px;
+    text-align: center;
+}
+#money{
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    font-family:  Hiragino Sans;
+    font-weight: 500;
+    text-align: center;
+    font-weight:bold;
+}
+main {
+    padding-bottom: 15%;
+    width: 50%;
+    margin: 0 auto;
+}
+hr{
+    color:white;
+    border-width: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+button{background-color: #e6c260;
+    border: none;
+    border-radius: 10%;
+    width: 30%;
+    height: 40px;
+    font-size: x-large;
+    color: #424242;
+    font-weight: 630;
+    display: block;
+    margin: auto;
+
+}
+
 }
