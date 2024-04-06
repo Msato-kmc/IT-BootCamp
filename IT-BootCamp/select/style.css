@@ -94,6 +94,7 @@ main {
 .info{
     position: relative;
     bottom: 35px;
+    font-size: 5vw;
 }
 
 .name{
