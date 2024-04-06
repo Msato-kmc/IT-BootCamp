@@ -36,9 +36,14 @@ h1 {
     font-family: Hiragino Sans;
 }
 
+h2 {
+    font-family: Hiragino Sans;
+}
+
 br{
     height: 10px;
 }
+
 hr{
     color: #ffffff;
     border-width: 2px;
