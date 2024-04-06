@@ -12,6 +12,20 @@
     <div class="wrapper">
     <main>
         <h1>Ainori</h1>
+
+        <div id="check_date"></div>
+        <br>
+        <div id="check_time"></div>
+        <br>
+        <div id="check_from_pref"></div>
+        <br>
+        <div id="check_from"></div>
+        <br>
+        <div id="check_to_pref"></div>
+        <br>
+        <div id="check_to"></div>
+        <br>
+        <div id="check_num_people"></div>
         
     </main>    
 
@@ -21,5 +35,28 @@
         <img src="../settingicon.jpg">
     </footer>
     </div>
+
+    <script>
+        const date = localStorage.getItem('date');
+        const time = localStorage.getItem('time');
+        const from_pref = localStorage.getItem('from_pref');
+        const from = localStorage.getItem('from');
+        const to_pref = localStorage.getItem('to_pref');
+        const to = localStorage.getItem('to');
+        const num_people = localStorage.getItem('num_people');
+
+      
+
+        check_date.innerHTML = date;
+        check_time.innerHTML = time;
+        check_from_pref.innerHTML = from_pref;
+        check_from.innerHTML = from;
+        check_to_pref.innerHTML = to_pref;
+        check_to.innerHTML = to;
+        check_num_people.innerHTML = num_people;
+    </script>
+
+
+    
 </body>
 </html>
