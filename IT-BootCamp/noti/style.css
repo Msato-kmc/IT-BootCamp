@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.body{
+    max-width: 100%;
+    margin: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 13%;
+}
+
+/*headerは読み込み済みのため消しました。*/
+
+.textbox{
+    font-size: 25px;
+    border: 3px solid #f8b500;
+    border-radius: 7%;
+}
+
+main {
+    padding-top: 12%;
+    padding-bottom: 15%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+select{
+    border: 3px solid #f8b500;
+    font-size: 25px;
+    width: 150px;
+    border-radius: 7%;
+    color: #424242;
+}
+
+p{
+    font-size: 25px;
+    font-family: Hiragino Sans;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Hiragino Sans;
+}
+
+br{
+    height: 10px;
+}
+hr{
+    color: #ffffff;
+    border-width: 2px;
+}
+
+.checkbtn{
+    background-color: #f8b500; /* ボタンの背景色 */
+    color: #ffffff; /* ボタンの文字色 */
+    border: 2px solid #f8b500; /* ボタンのボーダー */
+    border-radius: 20px; /* ボタンの角を丸める */
+    width: 100px;
+    height: 40px; /* ボタンの高さを少し大きくする */
+    font-size: 20px; /* 文字サイズを適切に設定 */
+    font-weight: bold; /* 文字を太くする */
+    transition: all 0.3s ease; /* ホバーアニメーションのための設定 */
+    display: inline;
+    margin: 20px auto; /* 中央揃え */
+}
+
+button:hover {
+    background-color: #ffffff; /* ホバー時の背景色を白に */
+    color: #f8b500; /* ホバー時の文字色をボタンの元の背景色に */
+    border: 2px solid #f8b500; /* ホバー時もボーダーを維持 */
+    transform: scale(1.05); /* ボタンを少し大きくするアニメーション */
+}
+
+.tokushimabtn{
+    background-color: #f8b500; /* ボタンの背景色 */
+    color: #ffffff; /* ボタンの文字色 */
+    border: 2px solid #f8b500; /* ボタンのボーダー */
+    border-radius: 20px; /* ボタンの角を丸める */
+    width: 100px;
+    height: 30px; /* ボタンの高さを少し大きくする */
+    font-size: 20px; /* 文字サイズを適切に設定 */
+    font-weight: bold; /* 文字を太くする */
+    transition: all 0.3s ease; /* ホバーアニメーションのための設定 */
+    display: inline;
+    margin: 0px auto; /* 中央揃え */
+}
+    
+.tokushimabtn:hover {
+        background-color: #ffffff; /* ホバー時の背景色を白に */
+        color: #f8b500; /* ホバー時の文字色をボタンの元の背景色に */
+        border: 2px solid #f8b500; /* ホバー時もボーダーを維持 */
+        transform: scale(1.05); /* ボタンを少し大きくするアニメーション */
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #faf8f1;
+    color: #424242;
+}
+
+.yoko {
+    margin: auto;
+    display: inline;
+}
