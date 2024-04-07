@@ -44,29 +44,24 @@ hr{
 }
 
 .checkbtn{
-    background-color: #f4dea0;
-    border: none;
-    border-radius: 10%;
-    width: 100px;
-    height: 40px;
-    font-size: x-large;
-    color: #424242;
-    font-weight: 630;
-    display: inline;
-    text-align: center;
+    background-color: #f8b500; /* ボタンの背景色 */
+    color: #ffffff; /* ボタンの文字色 */
+    border: 2px solid #f8b500; /* ボタンのボーダー */
+    border-radius: 20px; /* ボタンの角を丸める */
+    width: 40%;
+    height: 50px; /* ボタンの高さを少し大きくする */
+    font-size: 20px; /* 文字サイズを適切に設定 */
+    font-weight: bold; /* 文字を太くする */
+    transition: all 0.3s ease; /* ホバーアニメーションのための設定 */
+    display: block;
+    margin: 20px auto; /* 中央揃え */
 }
 
-.tokushimabtn{
-    background-color: #f4dea0;
-    border: none;
-    border-radius: 10%;
-    width: 100px;
-    height: 30px;
-    font-size: large;
-    color: #424242;
-    font-weight: 630;
-    display: inline;
-    margin-left: 25px;
+checkbtn:hover {
+    background-color: #ffffff; /* ホバー時の背景色を白に */
+    color: #f8b500; /* ホバー時の文字色をボタンの元の背景色に */
+    border: 2px solid #f8b500; /* ホバー時もボーダーを維持 */
+    transform: scale(1.05); /* ボタンを少し大きくするアニメーション */
 }
 
 .wrapper{
