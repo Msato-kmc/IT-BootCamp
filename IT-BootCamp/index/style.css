@@ -92,3 +92,8 @@ button:hover {
     background-color: #faf8f1;
     color: #424242;
 }
+
+.yoko {
+    margin: auto;
+    display: inline;
+}
