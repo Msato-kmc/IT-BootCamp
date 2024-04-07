@@ -26,10 +26,16 @@ select{
     color: #424242;
 }
 
-p{
+.info{
+    display: flex;
     font-size: 25px;
     font-family: Hiragino Sans;
-    font-weight: 500;
+    /* 水平方向の中央揃え */
+    text-align: center;
+}
+
+.info>div{
+    width: 50%;
 }
 
 h1 {
@@ -38,6 +44,7 @@ h1 {
 
 h2 {
     font-family: Hiragino Sans;
+    text-align: center;
 }
 
 br{
@@ -87,7 +94,7 @@ footer {
 img {
     width: 40%;
     background-color: #faf8f1;
-    margin-right: 10%;
+    margin-right: 24%;
     margin-left: 24%;
 }
 
