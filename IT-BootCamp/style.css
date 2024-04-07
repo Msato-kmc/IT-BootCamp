@@ -55,7 +55,7 @@ button{
     display: inline;
 }
 
-tokushimabtn{
+.tokushimabtn{
     background-color: #f4dea0;
     border: none;
     border-radius: 10%;
