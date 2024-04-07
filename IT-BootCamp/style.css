@@ -52,7 +52,7 @@ button{
     font-size: x-large;
     color: #424242;
     font-weight: 630;
-    display: inline;
+    display: inline-block;
 }
 
 .wrapper{
