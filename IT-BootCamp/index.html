@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./footer/footer.css">
     <title>ゆきあい</title>
      
 <body>
@@ -55,12 +56,10 @@
         <br><br><br><br>
 
         <button type="submit" id="check">確認</button>
-    </main>    
-    <footer>
-        <a href="../IT-BootCamp/plan/plan.html"><img src="./homeicon.jpg"></a>
-        <a href="./index.html"><img src="./bellicon.jpg"></a>
-        <a href="../IT-BootCamp/login/login.html"><img src="./settingicon.jpg"></a>
-    </footer>
+    </main>   
+
+    <div id="footer"></div>
+    
 
     </div>
 
@@ -98,6 +97,10 @@
         to_tokushima.onclick = () => {
             to_pref.value = "徳島県";
         };
+
+        fetch("./footer/footer.html")      
+            .then((response) => response.text())
+            .then((data) => document.querySelector("#footer").innerHTML = data)
 
 
     </script>
