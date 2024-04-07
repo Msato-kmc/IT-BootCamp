@@ -55,6 +55,19 @@ button{
     display: inline;
 }
 
+tokushimabtn{
+    background-color: #f4dea0;
+    border: none;
+    border-radius: 10%;
+    width: 30%;
+    height: 40px;
+    font-size: large;
+    color: #424242;
+    font-weight: 630;
+    display: inline;
+    margin-left:15px;
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
