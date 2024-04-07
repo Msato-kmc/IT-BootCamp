@@ -24,6 +24,11 @@ header{
     align-items: center;
 
 }
+.profile{
+    display: flex;
+    margin-left: 30%;
+
+}
 
 h1{
     text-align: center;
@@ -72,6 +77,7 @@ main {
 label{
     font-family: Hiragino Sans;
     font-size: 25px;
+    
 
 }
 /* おまじない */
@@ -82,6 +88,7 @@ label{
     color: #0c0c0d; /* 黒 */
     font-size: 16px;
     line-height: 1.4;
+    
   }
   
   /* ここから本文 */
@@ -92,6 +99,7 @@ label{
     color: #737373; /* グレー */
     display: inline-block;
     margin: 0 4px;
+    
   }
   /* 楕円部 */
   input[type="checkbox"] {
@@ -105,9 +113,11 @@ label{
   input[type="checkbox"]:hover {
     background-color: #0c0c0d33;
     border-color: #0c0c0d7f;
+    
   }
   input[type="checkbox"]:active {
     background-color: #0c0c0d4d;
+    
   }
   input[type="checkbox"]:focus {
     box-shadow: 0 0 0 1px #f8b500 inset, 0 0 0 1px  #f8b500, 0 0 0 4px #0a84ff4d;
@@ -133,3 +143,74 @@ label{
     background-color: #ffffff; /* 白（楕円部の色と調整） */
     margin-left: 17px;         /* ●を右へ移動 */
   }
+.settings{
+    margin-left: 5%;
+
+}
+img{
+    margin-left:45%;
+    width: 12%;
+    background-color: #faf8f1;
+}
+
+/*.plofile_button{
+    background:white;
+    color: black;
+    border:0;
+    width:20px;
+    height:20px;
+    font-size:10px;
+    border-radius: 5px;
+    font-family: Hiragino Sans;
+}
+.profile_button:hover{
+    background:lightcoral;
+    cursor:pointer;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.modal-content{
+    background-color:#f4f4f4;
+    margin: 20% auto;
+    width: 50%;
+    animation-name:modalopen;
+    animation-duration: is;
+}
+@keyframes modalopen{
+    form{opacity: 0}
+    to{opacity: 1}
+}
+.modal-header h1{
+    margin: 1rem 0;
+
+}
+.modal-header{
+    background: lightblue;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.madalClose{
+    font-size: 2rem;
+}
+.modalClose:hover {
+    cursor: pointer;
+  }
+  
+  .modal-body {
+    padding: 10px 20px;
+    color: black;
+  }
+  */
+
