@@ -46,7 +46,7 @@ hr{
 button{
     background-color: #f4dea0;
     border: none;
-    border-radius: 10%;
+    border-radius: 100px;
     width: 30px;
     height: 40px;
     font-size: x-large;
@@ -59,7 +59,7 @@ button{
 .tokushimabtn{
     background-color: #f4dea0;
     border: none;
-    border-radius: 10%;
+    border-radius: 100px;
     width: 40px;
     height: 30px;
     font-size: large;
