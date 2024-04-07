@@ -86,8 +86,13 @@
                    localStorage.setItem('num_people',num_people);
        
                    if(date && time && from_pref && from && to_pref && to && num_people){  　//入力データが空でないか判定
-                       window.location.href = "../check/check.html";
-                   }else{
+                       if(from_pref != "徳島県" && to_pref != "徳島県") {                       
+                          alert('まちのクルマLet'sは発着地のいずれかが神山町内である必要があります。');
+                       }else{
+                          window.location.href = "../check/check.html";
+                       }       
+
+                   }else{   
                        alert('入力していない項目があります。');
                    }
                }
