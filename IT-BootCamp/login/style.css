@@ -48,14 +48,13 @@ button{
     background-color: #e6c260;
     border: none;
     border-radius: 10%;
-    width: 30%;
+    width: 40%;
     height: 40px;
-    font-size: x-large;
+    font-size: large;
     color: #424242;
     font-weight: 630;
     display: block;
     margin: auto;
-
 }
 
 .wrapper{
