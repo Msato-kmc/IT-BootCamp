@@ -46,8 +46,8 @@ hr{
 .checkbtn{
     background-color: #f4dea0;
     border: none;
-    border-radius: 100px;
-    width: 30px;
+    border-radius: 10%;
+    width: 100px;
     height: 40px;
     font-size: x-large;
     color: #424242;
@@ -59,8 +59,8 @@ hr{
 .tokushimabtn{
     background-color: #f4dea0;
     border: none;
-    border-radius: 100px;
-    width: 40px;
+    border-radius: 10%;
+    width: 100px;
     height: 30px;
     font-size: large;
     color: #424242;
