@@ -73,8 +73,8 @@ main {
     margin: 0 auto;
 }
 
-yoko {
-    display: inline-block
+.yoko {
+    margin: auto;
 }
 
 /*footerとimgは読み込んでいるため消しました。*/
