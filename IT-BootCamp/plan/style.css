@@ -28,14 +28,15 @@ select{
 
 .info{
     display: flex;
-    font-size: 25px;
-    font-family: Hiragino Sans;
     /* 水平方向の中央揃え */
     text-align: center;
 }
 
 .info>div{
     width: 50%;
+    font-size: 25px;
+    font-family: Hiragino Sans;
+    line-height: 40px;
 }
 
 h1 {
@@ -44,7 +45,12 @@ h1 {
 
 h2 {
     font-family: Hiragino Sans;
-    text-align: center;
+    padding-left: 130px;
+}
+
+p{
+    font-family: Hiragino Sans;
+    padding-left: 120px;
 }
 
 br{
