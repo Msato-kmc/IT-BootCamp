@@ -76,7 +76,7 @@ button:hover {
     color: #ffffff; /* ボタンの文字色 */
     border: 2px solid #f8b500; /* ボタンのボーダー */
     border-radius: 20px; /* ボタンの角を丸める */
-    width: 100px;
+    width: 150px;
     height: 30px; /* ボタンの高さを少し大きくする */
     font-size: 20px; /* 文字サイズを適切に設定 */
     font-weight: bold; /* 文字を太くする */
