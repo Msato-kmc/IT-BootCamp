@@ -17,6 +17,13 @@
     border-radius: 7%;
 }
 
+main {
+    padding-top: 12%;
+    padding-bottom: 15%;
+    width: 50%;
+    margin: 0 auto;
+}
+
 select{
     border: 3px solid #f8b500;
     font-size: 25px;
