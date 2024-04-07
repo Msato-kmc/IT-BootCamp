@@ -43,17 +43,17 @@ hr{
     border-width: 2px;
 }
 
-button{
+.checkbtn{
     background-color: #f8b500; /* ボタンの背景色 */
     color: #ffffff; /* ボタンの文字色 */
     border: 2px solid #f8b500; /* ボタンのボーダー */
     border-radius: 20px; /* ボタンの角を丸める */
-    width: 40%;
-    height: 50px; /* ボタンの高さを少し大きくする */
+    width: 50px;
+    height: 40px; /* ボタンの高さを少し大きくする */
     font-size: 20px; /* 文字サイズを適切に設定 */
     font-weight: bold; /* 文字を太くする */
     transition: all 0.3s ease; /* ホバーアニメーションのための設定 */
-    display: block;
+    display: inline;
     margin: 20px auto; /* 中央揃え */
 }
 
@@ -69,12 +69,12 @@ button:hover {
     color: #ffffff; /* ボタンの文字色 */
     border: 2px solid #f8b500; /* ボタンのボーダー */
     border-radius: 20px; /* ボタンの角を丸める */
-    width: 40%;
-    height: 50px; /* ボタンの高さを少し大きくする */
+    width: 40px;
+    height: 30px; /* ボタンの高さを少し大きくする */
     font-size: 20px; /* 文字サイズを適切に設定 */
     font-weight: bold; /* 文字を太くする */
     transition: all 0.3s ease; /* ホバーアニメーションのための設定 */
-    display: block;
+    display: inline;
     margin: 20px auto; /* 中央揃え */
 }
     
@@ -92,19 +92,3 @@ button:hover {
     background-color: #faf8f1;
     color: #424242;
 }
-
-
-
-main {
-    padding-top: 12%;
-    padding-bottom: 15%;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.yoko {
-    margin: auto;
-    display: inline;
-}
-
-/*footerとimgは読み込んでいるため消しました。*/
