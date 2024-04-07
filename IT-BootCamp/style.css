@@ -47,20 +47,21 @@ button{
     background-color: #f4dea0;
     border: none;
     border-radius: 10%;
-    width: 30%;
+    width: 30px;
     height: 40px;
     font-size: x-large;
     color: #424242;
     font-weight: 630;
     display: inline;
+    text-align: center;
 }
 
 .tokushimabtn{
     background-color: #f4dea0;
     border: none;
     border-radius: 10%;
-    width: 30%;
-    height: 40px;
+    width: 40px;
+    height: 30px;
     font-size: large;
     color: #424242;
     font-weight: 630;
