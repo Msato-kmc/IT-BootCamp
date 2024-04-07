@@ -1,0 +1,116 @@
+<!-- select-pref tag  https://github.com/code4fukui/select-pref
+       Copyright (c) 2021 Taisuke Fukuno -->
+
+       <!DOCTYPE html>
+       <html lang="jp">
+       <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="style.css">
+           <link rel="stylesheet" href="./footer/footer.css">  <!--フッターのcss-->
+           <link rel="stylesheet" href="./header/header.css">  <!--ヘッダーのcss-->
+           <title>ゆきあい</title>
+            
+       <body>
+           <div id="header"></div>
+       
+           <div class="wrapper">
+           <main>
+               <p>日付 date</p>
+               <input type="date" class="textbox" id="date">
+               <br><br><hr>
+       
+               <p>時間 time</p>
+               <input type="time" class="textbox" id="time">
+               <br><br><hr>
+       
+               <p>出発地 県 from</p>
+               <div class="yoko">
+               <select-pref id="from_pref"></select-pref>
+               <button id="from_tokushima" class="tokushimabtn">徳島県</button> <!-- 徳島県ボタン -->
+               </div>
+               <hr>
+               <p>出発地場所 from</p>
+               <input type="from" class="textbox" id="from">
+               <br><br>
+               <hr>
+       
+               <p>目的地 県 to</p>
+               <div class="yoko">
+               <select-pref id="to_pref"></select-pref>
+               <button id="to_tokushima" class="tokushimabtn">徳島県</button>   <!-- 徳島県ボタン -->
+               </div>
+               <hr>
+       
+               <p>目的地 場所 to</p>
+               <input type="type" class="textbox" id="to">
+               <br><br>
+               <hr>
+       
+               <p>人数</p>
+               <select name="select" id="num_people">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+               </select>
+               <br><br><br><br>
+       
+               <button type="submit" id="check" class="checkbtn">確認</button>
+           </main>   
+       
+           <div id="footer"></div>
+           
+       
+           </div>
+       
+       
+           <script>
+               document.getElementById("check").onclick = function(){
+                   
+                   const date = document.getElementById('date').value;            //HTMLの入力を変数に代入する
+                   const time = document.getElementById('time').value;
+                   const from_pref = document.getElementById('from_pref').value;
+                   const from = document.getElementById('from').value;
+                   const to_pref = document.getElementById('to_pref').value;
+                   const to = document.getElementById('to').value;
+                   const num_people = document.getElementById('num_people').value;
+                   
+                   localStorage.setItem('date',date);            //入力した各データをローカルストレージに保存
+                   localStorage.setItem('time',time);
+                   localStorage.setItem('from_pref',from_pref);
+                   localStorage.setItem('from',from);
+                   localStorage.setItem('to_pref',to_pref);
+                   localStorage.setItem('to',to);
+                   localStorage.setItem('num_people',num_people);
+       
+                   if(date && time && from_pref && from && to_pref && to && num_people){  　//入力データが空でないか判定
+                       window.location.href = "./check/check.html";
+                   }else{
+                       alert('入力していない項目があります。');
+                   }
+               }
+       
+       
+               from_tokushima.onclick = () => {  //徳島県ボタンが押されたら徳島県を表示する。
+                   from_pref.value = "徳島県";
+               };
+               to_tokushima.onclick = () => {
+                   to_pref.value = "徳島県";
+               };
+       
+               fetch("./header/header.html")      
+                   .then((response) => response.text())
+                   .then((data) => document.querySelector("#header").innerHTML = data);
+       
+               fetch("./footer/footer.html")      
+                   .then((response) => response.text())
+                   .then((data) => document.querySelector("#footer").innerHTML = data);
+       
+       
+           </script>
+           <script type="module" src="https://code4fukui.github.io/select-pref/select-pref.js"></script>  <!-- ふくっちによるオープンソース -->
+       </head>
+       
+       </body>
+       </html>
