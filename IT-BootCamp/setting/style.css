@@ -7,9 +7,10 @@
     min-height: 100vh;
     padding-bottom: 13%;
 }
-h5{
+.happyman{
     text-align: center;
     font-family: Hiragino Sans;
+    font-size:18px;
 }
 header{
     position: fixed;
@@ -216,4 +217,3 @@ img{
     color: black;
   }
   */
-
