@@ -82,7 +82,7 @@ button:hover {
     font-weight: bold; /* 文字を太くする */
     transition: all 0.3s ease; /* ホバーアニメーションのための設定 */
     display: inline;
-    margin: 20px auto; /* 中央揃え */
+    margin: 0px auto; /* 中央揃え */
 }
     
 .tokushimabtn:hover {
