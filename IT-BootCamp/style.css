@@ -74,6 +74,7 @@ main {
 
 .yoko {
     margin: auto;
+    display: inline;
 }
 
 /*footerとimgは読み込んでいるため消しました。*/
