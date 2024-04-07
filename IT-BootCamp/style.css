@@ -78,25 +78,7 @@ button{
     color: #424242;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f8b500;
-    max-width: 100%;
-    height: 13%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-img {
-    width: 40%;
-    background-color: #faf8f1;
-    margin-right: 10%;
-    margin-left: 24%;
-}
 
 main {
     padding-top: 12%;
@@ -104,3 +86,5 @@ main {
     width: 50%;
     margin: 0 auto;
 }
+
+/*footerとimgは読み込んでいるため消しました。*/
