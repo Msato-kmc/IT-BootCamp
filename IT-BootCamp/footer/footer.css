@@ -12,6 +12,14 @@ footer {
 }
 
 
+img {
+    width: 30%;
+    background-color: #faf8f1;
+    margin: 6%;
+}
+
+
+
 /*フッダーのcssはここに書いてください*/
 /* htmlに <link rel="stylesheet" href="このファイルの場所"> を追加してください。*/
 
