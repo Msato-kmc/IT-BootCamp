@@ -145,7 +145,7 @@ label{
   }
   input[type="checkbox"]:checked::before {
     background-color: #ffffff; /* 白（楕円部の色と調整） */
-    margin-right: 2px;
+    margin-left: 21px;
   }
 .settings{
     margin-left: 5%;
