@@ -14,7 +14,7 @@ header{
     font-weight: 600;
 }
 
-img{
+#yukiai_icon{
     width: 40%;
     position: fixed; 
     top: 10px; /* 上から10px */
