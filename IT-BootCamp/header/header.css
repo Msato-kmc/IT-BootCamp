@@ -15,7 +15,7 @@ header{
 }
 
 #yukiai_icon{
-    width: 10%;
+    width: 50px;
     position: fixed; 
     top: -10px; /* 上から10px */
     left: -10px; /* 左から20px */
