@@ -15,10 +15,10 @@ header{
 }
 
 #yukiai_icon{
-    width: 40%;
+    width: 10%;
     position: fixed; 
-    top: 10px; /* 上から10px */
-    left: 20px; /* 左から20px */
+    top: -10px; /* 上から10px */
+    left: -10px; /* 左から20px */
 }
 
 /*フッダーのcssはここに書いてください*/
