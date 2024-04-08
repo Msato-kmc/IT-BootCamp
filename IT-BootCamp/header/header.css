@@ -15,6 +15,7 @@ header{
 }
 
 img{
+    width: 40%;
     position: fixed; 
     top: 10px; /* 上から10px */
     left: 20px; /* 左から20px */
